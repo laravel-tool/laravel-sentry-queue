@@ -7,7 +7,7 @@ use GuzzleHttp\Promise\PromiseInterface;
 class Promise implements PromiseInterface
 {
 
-    public function then(callable $onFulfilled = null, callable $onRejected = null)
+    public function then(?callable $onFulfilled = null, ?callable $onRejected = null): PromiseInterface
     {
         // TODO: Implement then() method.
     }
