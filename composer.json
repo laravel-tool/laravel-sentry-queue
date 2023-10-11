@@ -13,6 +13,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=8.0",
+        "guzzlehttp/promises": ">=2.0.1",
         "sentry/sentry-laravel": "^3.1",
         "illuminate/queue": "^9.0|^10.0"
     },

@@ -9,30 +9,30 @@ class Promise implements PromiseInterface
 
     public function then(?callable $onFulfilled = null, ?callable $onRejected = null): PromiseInterface
     {
-        // TODO: Implement then() method.
+        return $this;
     }
 
-    public function otherwise(callable $onRejected)
+    public function otherwise(callable $onRejected): PromiseInterface
     {
-        // TODO: Implement otherwise() method.
+        return $this;
     }
 
-    public function getState()
+    public function getState(): string
     {
-        // TODO: Implement getState() method.
+        return '';
     }
 
-    public function resolve($value)
+    public function resolve($value): void
     {
         // TODO: Implement resolve() method.
     }
 
-    public function reject($reason)
+    public function reject($reason): void
     {
         // TODO: Implement reject() method.
     }
 
-    public function cancel()
+    public function cancel(): void
     {
         // TODO: Implement cancel() method.
     }
